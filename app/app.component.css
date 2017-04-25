@@ -1,0 +1,52 @@
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #1976D2;
+	height: 56px;
+	min-height: 56px;
+	padding: 0;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
+	color: white;
+}
+
+header img {
+	width: 50px;
+}
+
+header h1 {
+	font-weight: 400;
+	margin: 0 0 0 10px;
+	font-family: arial, sans-serif;
+}
+
+main {
+	width: 60%;
+	max-width:500px;
+	margin: auto;
+	padding: 2rem 0 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+}
+
+todo-list {
+	width:100%;
+}
+
+footer{
+	height:120px;
+	width:100%;
+	text-align:center;
+	background-color: #1976D2;
+	color:white;
+	line-height:120px;
+}
+
+.message{
+	margin-top:150px;
+	color:red;
+}
+

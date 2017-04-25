@@ -1,0 +1,27 @@
+.todo-form{
+	margin-left:20px;
+}
+
+.newTask{
+	height: 22px;
+	width:70%;
+	margin:0 10px 10px 0;
+}
+
+.numberActiveTasks, .selectAll{
+	display:inline-block;
+	width:49%;
+	font-size: 16px;
+}
+
+.addButton{
+	padding: 6px 12px;
+	background-color: #1976D2;
+	border:none;
+	border-radius:2px;
+	color:white;
+}
+
+.addButton:hover, .selectAll:hover{
+	cursor:pointer;
+}

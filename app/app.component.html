@@ -1,0 +1,14 @@
+<header *ngIf="dataArray.length">
+    <img src="img/angular.svg">
+    <h1>{{title}}</h1>
+</header>
+<main>
+    <todo-form (add)="create($event)" [dataArray]="dataArray"></todo-form>
+    <todo-list [dataArray]="dataArray"></todo-list>
+    <div class="message" *ngIf="!dataArray.length">
+        <h1>В данный момент заданий нет</h1>
+    </div>
+</main>
+<footer *ngIf="dataArray.length">
+    <h1>Footer</h1>
+</footer>
